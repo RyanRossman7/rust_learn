@@ -1,4 +1,4 @@
-//mod print;
+    //mod print;
 //mod vars;
 //mod types;
 //mod print;
@@ -12,7 +12,8 @@
 //mod pointers;
 //mod sorting;
 //mod structs;
-mod tuple_structs; 
+//mod tuple_structs; 
+mod person;
 fn main() {
     //print::run();
     //vars::run();
@@ -29,5 +30,6 @@ fn main() {
     //pointers::run();
     //sorting::run(); 
     //structs::run(); 
-      tuple_structs::run(); 
+    //tuple_structs::run();
+    person::run();
 }

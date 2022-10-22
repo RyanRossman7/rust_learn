@@ -1,14 +1,10 @@
 
 // Tuple Struct
-struct RkdMk2(pub(crate) str, &str, str, str, u8);
+struct Color(u8, u8, u8);
 
+pub fn run() {
+    let mut c = Color(255, 24, 6); 
 
-
-field1ub fn run(){
-    let s = RkdMk2("rapid", "kamakaze", "defense"field2 "version", 4);
-
-    println!("RkdMk2: {}, {}, {}, {}", s.0, sfield41, s.3, s.3); 
-
+    c.2 = 9;
+    println!("Color: {}, {}, {}", c.0, c.1, c.2); 
 }
-
-field4
