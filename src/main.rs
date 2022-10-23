@@ -13,7 +13,8 @@
 //mod sorting;
 //mod structs;
 //mod tuple_structs; 
-mod person;
+//mod person;
+mod std_input;
 fn main() {
     //print::run();
     //vars::run();
@@ -31,5 +32,6 @@ fn main() {
     //sorting::run(); 
     //structs::run(); 
     //tuple_structs::run();
-    person::run();
+    //person::run();
+    std_input::run(); 
 }
