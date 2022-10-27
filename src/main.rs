@@ -13,8 +13,10 @@
 //mod sorting;
 //mod structs;
 //mod tuple_structs; 
-//mod person;
-mod std_input;
+//person;
+//mod std_input;
+//mod enums;
+mod cli;
 fn main() {
     //print::run();
     //vars::run();
@@ -33,5 +35,7 @@ fn main() {
     //structs::run(); 
     //tuple_structs::run();
     //person::run();
-    std_input::run(); 
+    //std_input::run(); 
+    //enums::run(); 
+    cli::run(); 
 }

@@ -1,9 +1,17 @@
-// Conditionals are used to check the condition and act 
-
+// Conditionals are used to check the condition for factors of truth
+// <
+// >
+// <=
+// >=
+// !=
+// ==
+// Logical opperators (AND, OR, NOT)
+// &&(AND), ||(OR), !(NOT)
 pub fn run() {
-    let age: u8 = 16; 
+    let age: i32 = 15; 
     let check_id = true; 
     let knows_person_of_age = true; 
+
     
     // If/Else
     if age >= 21 && check_id || knows_person_of_age {
