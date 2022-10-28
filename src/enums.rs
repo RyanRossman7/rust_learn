@@ -1,30 +1,47 @@
 // Enums are types that have definite values
-enum Movement { 
-    // Variants 
-    Up,
-    Down, 
-    Left, 
-    Right, 
+// Multiple variations on a type
+enum Pitch { 
+    Up, Down, Left, Right}
+enum Roll {
+    Up, Down, Left, Right}
+enum Yaw {
+    Left,Right }
+enum Rpm { 
+    Max,Med,Min,Hover,R_Min,R_Med,R_Max
 }
-fn move_self(m: Movement) {
+fn Movement () {
     // Perform action depending on info 
-    match m {
+    match P {
         // IF the Movement ::(==)pitch_up =>(THEN)
-        Movement::Up => println!("Up"), 
-        Movement::Down => println!("Down"), 
-        Movement::Left => println!("Left"), 
-        Movement::Right => println!("Right") 
-    }
+        Pitch::Up => println!("Pitch Up"), 
+        Pitch::Down => println!("Pitch Down"), 
+        Pitch::Left => println!("Pitch Left"), 
+        Pitch::Right => println!("Pitch Right")}
+    
+    match R {
+        Roll::Up => println!("Roll UP"), 
+        Roll::Down => println!("Roll Down"), 
+        Roll::Left => println!("Roll Left"), 
+        Roll::Right => println!("Roll Right")}
+    
+    match Y {
+        Yaw::Left => println!("Yaw Left"),
+        Yaw::Right => println!("Yaw Right")}
+
+    match R {
+        Rpm::Max => println!("Throttle Minimum"),
+        Rpm::Med => println!("Throttle Minimum"),
+        Rpm::Min => println!("Throttle Minimum"),
+        Rpm::Hover => println!("Throttle Minimum"),
+        Rpm::Reverse_Min => println!("Throttle Minimum"), 
+        Rpm::Reverse_Med => println!("Throttle Minimum"),  
+        Rpm::Reverse_Max => println!("Throttle Minimum")}
 }
 
+
 pub fn run() {
-    let self1 = Movement::Up;
-    let self2 = Movement::Down; 
-    let self3 = Movement::Left; 
-    let self4 = Movement::Right; 
-    
-    move_self(self1);
-    move_self(self2); 
-    move_self(self3); 
-    move_self(self4);  
+    let p_up = Pitch::Up;
+    let p_down = Pitch::Down; 
+    let p_left = Pitch::Left;
+    let p_right = Pitch::Right; 
 }

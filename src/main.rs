@@ -8,7 +8,7 @@
 //mod vectors;
 //mod conditionals;
 //mod loops; 
-//mod functions;
+mod functions;
 //mod pointers;
 //mod sorting;
 //mod structs;
@@ -16,7 +16,7 @@
 //person;
 //mod std_input;
 //mod enums;
-mod cli;
+//mod cli;
 fn main() {
     //print::run();
     //vars::run();
@@ -29,7 +29,7 @@ fn main() {
     //vectors::run(); 
     //conditionals::run();
     //loops::run();
-    //functions::run();
+    functions::run();
     //pointers::run();
     //sorting::run(); 
     //structs::run(); 
@@ -37,5 +37,5 @@ fn main() {
     //person::run();
     //std_input::run(); 
     //enums::run(); 
-    cli::run(); 
+    //cli::run(); 
 }
