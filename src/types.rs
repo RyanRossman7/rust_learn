@@ -8,10 +8,8 @@
 pub fn run() {
     // Default is "i32"
     let x: i32 = 1; 
-
     // Defualt is f64
     let y: f64 = 2.5;
-
     // Add explicit type 
     let z: i64 = 45454545454; 
 
