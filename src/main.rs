@@ -1,3 +1,5 @@
+use alloc::collections;
+
 //mod print;
 //mod vars;
 //mod types;
@@ -15,8 +17,10 @@
 //mod tuple_structs; 
 //person;
 //mod std_input;
-mod enums;
-//mod cli;
+//mod enums;
+mod cli;
+//mod oop;
+//mod collections;
 fn main() {
     //print::run();
     //vars::run();
@@ -36,6 +40,9 @@ fn main() {
     //tuple_structs::run();
     //person::run();
     //std_input::run(); 
-    enums::run(); 
-    //cli::run(); 
+    //enums::run(); 
+    cli::run(); 
+    //oop::run();
+    //collections::run();
 }
+

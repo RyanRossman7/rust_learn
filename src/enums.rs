@@ -13,7 +13,7 @@ enum Message {
 }
 impl Message {
     fn some_function() {
-        println!("function!", some_function);
+        println!("function!", Message);
     }
 }
 // A Structure used in Enums
