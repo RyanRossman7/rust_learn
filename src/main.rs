@@ -16,10 +16,11 @@
 //person;
 //mod std_input;
 //mod enums;
-mod cli;
+//mod cli;
 //mod oop;
 //mod collections;
 //mod traits;
+mod iterators; 
 fn main() {
     //print::run();
     //vars::run();
@@ -40,9 +41,10 @@ fn main() {
     //person::run();
     //std_input::run(); 
     //enums::run(); 
-    cli::run(); 
+    //cli::run(); 
     //oop::run();
     //collections::run();
     //traits::run();
+    iterators::run(); 
 }
 
