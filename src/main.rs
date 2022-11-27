@@ -20,7 +20,10 @@
 //mod oop;
 //mod collections;
 //mod traits;
-mod iterators; 
+//mod iterators;
+//mod closures; 
+//mod concurrency;
+mod mutex;  
 fn main() {
     //print::run();
     //vars::run();
@@ -45,6 +48,9 @@ fn main() {
     //oop::run();
     //collections::run();
     //traits::run();
-    iterators::run(); 
+    //iterators::run(); 
+    //closures::run();
+    //concurrency::run(); 
+    mutex::run(); 
 }
 
